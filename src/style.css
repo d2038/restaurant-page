@@ -1,0 +1,9 @@
+body {
+    background: #F5F5F5;
+}
+
+#content {
+    width: 70%;
+    min-height: 100%;
+    margin: 0 auto;
+}
