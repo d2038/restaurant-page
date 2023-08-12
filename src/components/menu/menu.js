@@ -23,10 +23,10 @@ const menu = () => {
     const menu = createElement('div', 'menu');
 
     for (let index = 0; index < cards.images.length; index++) {
-        const card = createElement('div', 'card');
-        const image = createElement('img', 'image', null, cards.images[index]);
-        const title = createElement('div', 'title', cards.titles[index]);
-        const text = createElement('div', 'text', cards.text[index]);
+        const card = createElement('div', 'menu-card');
+        const image = createElement('img', 'menu-image', null, cards.images[index]);
+        const title = createElement('div', 'menu-title', cards.titles[index]);
+        const text = createElement('div', 'menu-text', cards.text[index]);
 
         card.append(image, title, text);
         menu.append(card);
