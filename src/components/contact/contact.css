@@ -1,0 +1,32 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: #FFFFF0;
+    flex-grow: 1;
+    padding: 40px 0;
+    gap: 40px;
+}
+
+.contact-phone, .contact-address {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-phone, .contact-address, .contact-map {
+    width: 80%;
+}
+
+.contact-phone-text, .contact-address-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 2px 2px 5px #8BC34A;
+    border-radius: 5px;
+}
+
+.contact-map {
+    border: 3px solid #795548;
+    border-radius: 30px;
+}

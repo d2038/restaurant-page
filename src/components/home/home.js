@@ -10,7 +10,7 @@ const home = () => {
     const textContainer = createElement('div', 'text-container');
     const textOne = createElement('div', 'text-1', text[0]);
     const textTwo = createElement('div', 'text-2', text[1]);
-    const image = createElement('img', 'image-home', null, imageFile);
+    const image = createElement('img', 'home-image', null, imageFile);
 
     textContainer.append(textOne, textTwo);
     home.append(textContainer, image);
