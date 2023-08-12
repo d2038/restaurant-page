@@ -1,4 +1,4 @@
-import { createElement } from '../utils';
+import createElement from '../utils';
 import './menu.css';
 import reina from './reina.jpg';
 import pelua from './pelua.jpg';

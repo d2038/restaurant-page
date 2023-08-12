@@ -1,4 +1,4 @@
-import { createElement } from '../utils';
+import createElement from '../utils';
 import './contact.css';
 import mapImage from './map.png';
 import phoneImage from './phone.png';

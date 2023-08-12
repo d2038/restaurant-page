@@ -20,6 +20,6 @@ const createElement = (type, classList, text, image) => {
     }
     console.log(element);
     return element;
-}
+};
 
-export { createElement };
+export default createElement;
