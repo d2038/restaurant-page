@@ -1,4 +1,4 @@
-import { createElement } from '../utils';
+import createElement from '../utils';
 import './home.css';
 import imageFile from './chef.png';
 
