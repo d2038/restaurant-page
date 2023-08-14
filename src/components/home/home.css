@@ -7,13 +7,39 @@
 }
 
 .home-image {
-    border-radius: 10%;
+    border: 3px solid #795548;
+    border-radius: 30px;
     width: 40%;
     aspect-ratio: 1;
     max-width: 350px;
 }
 
+.text-container::after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    border-top: 3px solid #8BC34A;
+    border-left: 3px solid #8BC34A;
+  }
+
+.text-container::before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    border-bottom: 3px solid #8BC34A;
+    border-right: 3px solid #8BC34A;
+  }
+
 .text-container {
+    position: relative;
     font-size: 1.5rem;
     max-width: 30ch;
     text-align: center;

@@ -23,7 +23,7 @@
 }
 
 .menu-image {
-    border-radius: 10%;
+    border-radius: 30px;
     width: 50%;
     aspect-ratio: 1;
     max-width: 350px;

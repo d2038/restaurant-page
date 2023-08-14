@@ -5,9 +5,7 @@ const createElement = (type, classList, text, image) => {
         classList.forEach(className => {
             element.classList.add(className);
         });
-    }
-
-    if (classList) {
+    } else if (classList) {
         element.classList.add(classList);
     }
 
@@ -18,7 +16,7 @@ const createElement = (type, classList, text, image) => {
     if (image) {
         element.src = image;
     }
-    console.log(element);
+
     return element;
 };
 
