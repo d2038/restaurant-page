@@ -18,7 +18,7 @@ module.exports = env => {
         title: 'Arepa Bistro',
         favicon: '',
         template: './src/index.html',
-        filename: `[name]${env.WEBPACK_SERVE ? '' : '.[contenthash]'}.html`,
+        filename: `[name].html`,
       }),
       new MiniCssExtractPlugin({
         filename: `[name]${env.WEBPACK_SERVE ? '' : '.[contenthash]'}.css`,
